@@ -1,2 +1,87 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stil.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>weTravel</title>
+    <link rel="shortcut icon" href="omlogo-removebg.png" type="image/x-icon" width="500px">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lora&family=Young+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body >
+
+    
+<div class="home">
+    
+<video src="production_id_4763823 (2160p).mp4" loop autoplay muted >
+
+    
+</video>
+
+<div class="overlay">
+    
+    <header class="header">
+        
+        <a href="#" class="logo">weTravel</a>
+
+        <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Travel Packages</a>
+        <a href="#">Contact Us</a>
+        </nav>
+
+
+    </header>
+    
+
+    <main>
+
+        <a href="#"><img src="omlogo-removebg.png" alt="" width="80px"></a>
+    </main>
+
+        <form class="Alege-destinatia">
+            
+                <h1 class="Where">Where do you want to go?</h1>
+                <br>
+                <br>
+                <div >
+        <label class="text-destination">Destination :</label> <br><br>
+                <select name="destinatie" >
+                    
+                    <option value="Select a country" selected disabled >Select Country</option>
+                    <option value="Romania" >Romania</option>
+                    <option value="">Bulgaria</option>
+                    <option value="">Macedonia</option>
+                    <option value=""></option>
+                </select>
+                </div>
+                <div>
+                    <br><br>
+                    <label for="">Date :</label><br><br>
+                    <input type="date" class="input-date" required>
+                </div>
+                <br><br>
+                <div class="Trimitere">
+               <a href="https://www.google.ro/"><button type="button">Search Package</button></a>
+                </div>
+                
+        </form>
+        
+    
+
+</div>
+
+</div>
+
+    
+</body>
+</html>
